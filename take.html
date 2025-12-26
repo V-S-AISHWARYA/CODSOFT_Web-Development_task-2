@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Take your quiz</title>
+    <link rel="stylesheet" href="take.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Take your Quiz and check your level of knowledge!</h2>
+    
+    <div class="q">
+        <h3 style="font-weight: bold;">Question 1</h3>
+        <h4>Which is not a backend programming language?</h4>
+        <label><input type="radio" name="q1" value="java"> Java</label><br>
+        <label><input type="radio" name="q1" value="python"> Python</label><br>
+        <label><input type="radio" name="q1" value="node"> Node Js</label><br>
+        <label><input type="radio" name="q1" value="js"> JavaScript</label>
+    </div>
+
+    <div class="q">
+        <h3 style="font-weight: bold;">Question 2</h3>
+        <h4>What is the primary purpose of a variable in programming?</h4>
+        <label><input type="radio" name="q2" value="perform"> To perform mathematical operations</label><br>
+        <label><input type="radio" name="q2" value="store"> To store and manage data in memory</label><br>
+        <label><input type="radio" name="q2" value="define"> To define the visual appearance</label><br>
+        <label><input type="radio" name="q2" value="handle"> To handle error messages</label>
+    </div>
+
+    <div class="q">
+        <h3 style="font-weight: bold;">Question 3</h3>
+        <h4>Which programming paradigm focuses on procedures rather than objects?</h4>
+        <label><input type="radio" name="q3" value="oop"> Object-Oriented Programming (OOP)</label><br>
+        <label><input type="radio" name="q3" value="Functional"> Functional Programming</label><br>
+        <label><input type="radio" name="q3" value="Procedural"> Procedural Programming</label><br>
+        <label><input type="radio" name="q3" value="Logic"> Logic Programming</label>
+    </div>
+
+    <button onclick="calculateScore()">Submit Quiz!</button>
+    <div id="score-display"></div>
+
+    <script src="take.js"></script>
+</body>
+</html>

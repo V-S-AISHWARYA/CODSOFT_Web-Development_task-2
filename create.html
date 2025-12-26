@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Quiz Builder </title>
+    <link rel="stylesheet" href="create.css">
+    <body>
+    <div class="container">
+    <div id="creator-box">
+        <h2 style="text-align:center">Create Your Quiz Here!</h2>
+        <input type="text" id="q-text" placeholder="Enter Question">
+        <div id="options-builder">
+            <div class="opt-row">
+                <input type="radio" name="correct"value="0" checked>
+                <input type="text" class="opt-val" placeholder="Option 1">
+            </div>
+            <div class="opt-row">
+                <input type="radio" name="correct" value="1">
+                <input type="text" class="opt-val" placeholder="Option 2">
+            </div>
+            <div class="opt-row">
+                <input type="radio" name="correct" value="2">
+                <input type="text" class="opt-val" placeholder="Option 3">
+            </div>
+            <div class="opt-row">
+                <input type="radio" name="correct" value="3">
+                <input type="text" class="opt-val" placeholder="Option 4">
+            </div>
+        </div>
+        <button onclick="saveQuestion()">Add Question</button>
+        <p id="counter">Questions: 0</p>
+        <button id="start-btn" class="hidden" style="gap:10px" onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div id="quiz-box" class="hidden">
+        <h3 id="display-q"></h3>
+        <div id="display-opts"></div>
+        <p id="score">Score: 0</p>
+    </div>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.default-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+}
+
+/* Conditional Classes */
+.minor { background-color: #ffcccc; color: #990000; border-color: red; }
+.adult { background-color: #ccffcc; color: #006600; border-color: green; }
+.senior { background-color: #cce5ff; color: #004085; border-color: blue; }

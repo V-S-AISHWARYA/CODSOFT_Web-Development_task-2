@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    font-family: arial;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.q {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid brown;
+}
+#score-display {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+body { 
+    font-family: sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    background: #ed7ed7; 
+}
+.container { 
+    padding: 25px; 
+    margin-top: 50px; 
+}
+.opt-row { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin: 8px 0; 
+}
+#q-text{
+    border-color: purple;
+    border-style:dotted;
+    border-width:5px;
+    width:1000px;
+}
+input[type="text"] { 
+    flex-grow: 1; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+}
+button { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 15px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 5px; 
+    background: #007bff; 
+    color: white; 
+}
+.hidden { 
+    display: none; 
+}
+.ans-btn { 
+    background: #e9ecef; 
+    color: #333; 
+    text-align: left; 
+}
